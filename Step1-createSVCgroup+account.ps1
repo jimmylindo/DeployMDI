@@ -1,7 +1,7 @@
 ﻿# Set the variables:
 $gMSA_AccountName = 'mdiSvc01'
 $gMSA_HostsGroupName = 'mdiSvc01Group'
-$gMSA_HostNames = 'ACME-DC01'
+$gMSA_HostNames = 'DC01', 'DC02', 'ADCS', 'ADFS'
 
 # Import the required PowerShell module:
 Import-Module ActiveDirectory
