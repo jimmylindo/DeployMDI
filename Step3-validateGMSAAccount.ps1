@@ -1,0 +1,1 @@
+﻿Test-ADServiceAccount -Identity 'mdiSvc01'
